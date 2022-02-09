@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #40514E;
+}
+h1{
+  font-family: 'Paprika', sans-serif;
+  font-size: 75px;
+  color: #7882A4;
+  margin-bottom: 0;
+}
+h2{
+  color: #7882A4;
+  font-weight: normal;
+}
+h3{
+  color: #395B64;
+}
+.skill-row{
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+a:hover{
+  color: white;
+}
+.img1{
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+.img3{
+  position: absolute;
+}
+.top{
+  background-color: skyblue;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+.middle_text{
+  width: 40%;
+  margin: auto;
+}
+.hr1{
+  border-style: dotted;
+  border-width: 7px;
+  width: 5%;
+  border-top: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-color: grey;
+}
+.comp{
+  float: left;
+  margin-right: 30px;
+  width: 33%;
+}
+.badminton{
+  float: right;
+  position: relative;
+  top: 50px;
+  margin-left: 30px;
+  width: 45%;
+}
+.bottom{
+  background-color: skyblue;
+  margin-bottom: 0;
+  padding: 45px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
